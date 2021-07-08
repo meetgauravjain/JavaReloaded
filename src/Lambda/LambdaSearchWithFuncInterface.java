@@ -16,6 +16,7 @@ public class LambdaSearchWithFuncInterface {
         System.out.println("Below Animals can swim");
         print(animalList, a -> a.isCanSwim());
         //Note - In LambdaSearch CheckIfSwim and CheckIfHopper Class is not used
+        //Note - In this case CheckTrait interface is not used
     }
     private static void print(List<Animal> animalList, Predicate<Animal> checkTrait) {
         for (Animal animal:animalList) {
