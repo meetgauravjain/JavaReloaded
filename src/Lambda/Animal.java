@@ -23,7 +23,7 @@ public class Animal {
         return canHop;
     }
 
-    public void setCanHop(boolean canHop) {
+    public void setCanHop(boolean canHop)  {
         this.canHop = canHop;
     }
 
